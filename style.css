@@ -1,0 +1,5 @@
+body {
+    background-image: url("building.png");
+    background-repeat: no-repeat; 
+    display: flex;
+}
