@@ -1,5 +1,48 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url("Norse-Bold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
+    display: flex;
+    margin:0;
+}
+
+/* left part of the page */
+#left-part {
     background-image: url("building.png");
     background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.logo {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,196,201,0.2); 
+    margin-top: 5rem; 
+}
+
+img {
+    width: 30%;
+}
+
+h1 {
+    font-family: "Norse Bold",sans-serif;
+    font-size: 5rem;
+    color: white;
+}
+
+#left-part p {
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    padding-top: 20rem;
+    text-align: center;
+}
+
+#left-part a {
+    color: white;
 }
